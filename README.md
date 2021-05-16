@@ -103,3 +103,15 @@ Code tested on following environments, other version should also work:
   </td>
  </tr>
 </tbody></table>
+
+# 网络架构
+1.卷积64个3X3的卷积核
+2.经过一个ReLU
+3.再卷积128个3X3的卷积核
+4.经过一个ReLU
+5.Maxpooling
+6.reshape
+7.经过一次全连接
+8.ReLU
+9.通过一个dropout层
+10.最后通过一个全连接
