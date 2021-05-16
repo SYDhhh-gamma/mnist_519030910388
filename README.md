@@ -6,7 +6,7 @@ Code tested on following environments, other version should also work:
 * sklearn 0.19.1
 * pytorch 1.8.1 + cuda10.2
 
-# Accuracy
+## Accuracy
 <table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" width="690" style="width:517.15pt;border-collapse:collapse;border:none;mso-border-alt:
  solid windowtext .5pt;mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
  <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes">
@@ -104,14 +104,14 @@ Code tested on following environments, other version should also work:
  </tr>
 </tbody></table>
 
-# 网络架构
-1.卷积64个3X3的卷积核
-2.经过一个ReLU
-3.再卷积128个3X3的卷积核
-4.经过一个ReLU
-5.Maxpooling
-6.reshape
-7.经过一次全连接
-8.ReLU
-9.通过一个dropout层
-10.最后通过一个全连接
+## 网络架构
+ 1. 卷积64个3X3的卷积核
+ 2. 经过一个ReLU
+ 3. 再卷积128个3X3的卷积核
+ 4. 经过一个ReLU
+ 5. Maxpooling
+ 6. reshape
+ 7. 经过一次全连接
+ 8. ReLU
+ 9. 通过一个dropout层
+ 10. 最后通过一个全连接
