@@ -7,5 +7,5 @@ Code tested on following environments, other version should also work:
 * pytorch 1.8.1 + cuda10.2
 
 # Accuracy
-||逻辑回归|
+|分类方法|逻辑回归|
 |ssss|jjjj|
